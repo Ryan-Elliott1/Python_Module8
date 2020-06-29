@@ -13,13 +13,19 @@ def b():
     return "You chose b"
 def B():
     return "You chose B"
+def c():
+    return "You chose c"
+def C():
+    return "You chose C"
 
 
 switch = {
     1: a(),
     2: A(),
     3: b(),
-    4: B()
+    4: B(),
+    5: c(),
+    6: C()
 }
 
 
