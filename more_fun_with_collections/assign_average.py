@@ -6,8 +6,9 @@ Last date modified: 06/28/2020
 
 
 def switch_average(choice):
-    pass
+    if choice == 'a' or choice == 'A':
+        return "You chose A"
 
 
 if __name__ == '__main__':
-    switch_average()
+    print(switch_average('a'))
