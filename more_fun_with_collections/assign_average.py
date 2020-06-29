@@ -9,11 +9,17 @@ def a():
     return "You chose a"
 def A():
     return "You chose A"
+def b():
+    return "You chose b"
+def B():
+    return "You chose B"
 
 
 switch = {
     1: a(),
-    2: A()
+    2: A(),
+    3: b(),
+    4: B()
 }
 
 
