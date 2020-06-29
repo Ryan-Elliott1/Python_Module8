@@ -6,13 +6,4 @@ Last date modified: 06/28/2020
 
 
 def switch_average(choice):
-    if choice == 'a' or choice == 'A':
-        return "You chose A"
-    elif choice == 'b' or choice == 'B':
-        return "You chose B"
-    elif choice == 'c' or choice == 'C':
-        return "You chose C"
-
-
-if __name__ == '__main__':
-    print(switch_average('a'))
+    pass
